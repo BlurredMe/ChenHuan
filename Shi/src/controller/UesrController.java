@@ -124,6 +124,7 @@ public class UesrController {
 		su.setAddress(address);
 		su.setUserRole(userRole);
 		int num= uService.uadd(su);
+		System.out.println("11111111Ìí¼Ó³É¹¦");
 		if (num>0) {
 			return "getAll";
 		}
